@@ -1,0 +1,20 @@
+Test Url path references:
+completion
+find usages
+refactor->rename
+
+Done for:
+-fetch
+-axios
+-new WebSocket
+-$.get("http://google.com")
+-json objects like {url: "http://google.com" }  (for random objects doesn’t work)
+
+
+Note1: in jax-rs/quarkus frameworks are not taken into account the app root paths
+https://youtrack.jetbrains.com/issue/IDEA-225231
+
+Note2:  bug that http and https are always present in the completion list
+
+https://youtrack.jetbrains.com/issue/IDEA-233495
+Note3: Others links to bugs - see inside the files with test cases.

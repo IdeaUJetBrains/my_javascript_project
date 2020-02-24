@@ -1,0 +1,8 @@
+micronaut:
+  placeholder:
+    path:
+      from:
+        file: micronaut_value_from_file
+hello:
+  controller:
+    path: test_controller
